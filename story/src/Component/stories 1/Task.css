@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: gray;
+  box-sizing: border-box;
+}
+
+p {
+  color: gray;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+}
+
+.outer {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-icon {
+  position: absolute;
+  margin: 327px 650px 0px 10px;
+}
+
+.Car-menu-img {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin: 325px 0px 0px 520px;
+  background-color: #fff;
+  padding: 8px 15px 6px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.326);
+}
+.Car-menu-img img {
+  width: 14px;
+  padding-right: 5px;
+}
+.Car-menu-img p {
+  margin: 0px 0px 0px 0px;
+  font-size: 11px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.885);
+}
+
+/* Left Side (Car Image & Slide Buttons) */
+.inner1 {
+  flex: 1;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 700px;
+}
+
+.car-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+.prev-btn,
+.next-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.558);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.prev-btn {
+  left: 10px;
+}
+.next-btn {
+  right: 10px;
+}
+
+/* Right Side (Car Details) */
+.top {
+  flex: 0.5;
+  margin: 20px;
+  box-shadow: 2px 2px 2px 2px #e2e1e1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  width: 100%;
+}
+
+/* Car Details Section */
+.inner2-1 {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title, Certification & Heart Icon */
+.in1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.in1 h2 {
+  width: 60%;
+  font-size: 25px;
+}
+
+.in1 button {
+  border: none;
+  border-radius: 10px;
+  background-color: lightgrey;
+  padding: 5px;
+  font-size: 14px;
+}
+.heart-icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.heart-icon.favorited {
+  scale: 0.5;
+}
+
+/* Car Specifications */
+.in2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 7px 0px 7px 0px;
+}
+.in2 ul {
+  display: flex;
+  gap: 25px;
+}
+.in2 span {
+  margin-right: 23px;
+}
+
+/* Car Pricing & EMI */
+.in3 {
+  margin-bottom: 20px;
+}
+.in3 h2 {
+  margin-bottom: 10px;
+}
+
+.in3 a {
+  color: rgba(0, 0, 0, 0.788);
+  font-weight: bold;
+}
+
+/* Location, Compare & Seller Details */
+.in4 {
+  border-top: 1px dashed rgba(0, 0, 0, 0.641);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 8px 20px;
+}
+
+.in4-1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.in4-1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.in4-1 p {
+  flex-grow: 1;
+}
+
+.in4-1 input {
+  width: 20px;
+  height: 20px;
+}
+
+.in4 button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: orangered;
+  color: aliceblue;
+  margin-top: 15px;
+}
+
+/* Trending Car Alert */
+.inner2-2 {
+  background-color: lightgray;
+  height: 50px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.inner2-2 img {
+  width: 27px;
+  height: 20px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bottom .app-icon img {
+  width: 29px;
+  height: 22px;
+  padding: 0px 8px 0px 0px;
+}
+.bottom .app-icon {
+  display: flex;
+  align-items: center;
+}
+.bottom .app-icon a {
+  color: rgba(0, 0, 0, 0.852);
+  font-weight: bold;
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 1024px) {
+  .outer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inner1,
+  .inner2 {
+    max-width: 90%;
+    margin: 10px;
+  }
+
+  .car-image {
+    max-width: 100%;
+  }
+
+  .prev-btn,
+  .next-btn {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .in1,
+  .in2,
+  .in4-1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .in1 button,
+  .in4 button {
+    width: 100%;
+  }
+
+  .prev-btn,
+  .next-btn {
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .car-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .in1 h2 {
+    font-size: 18px;
+  }
+
+  .prev-btn,
+  .next-btn {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,134 @@
+/* Background Image */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://source.unsplash.com/1600x900/?shopping,ecommerce");
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+  }
+  
+  /* Main Container */
+  .container {
+    font-family: "Arial, sans-serif";
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Order Summary */
+  .summary {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Product Selection */
+  .productOption {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .productOption:hover {
+    background: #f1f1f1;
+  }
+  
+  .productImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  /* Shipping Method Styles */
+  .shippingMethods {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .shippingOption {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .shippingOption:hover {
+    background: #f1f1f1;
+  }
+  
+  .shippingLogo {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* Payment Section */
+  .payment {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Pay Button */
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .button:disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    .productOption {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .shippingLogo {
+      width: 40px;
+    }
+  }
