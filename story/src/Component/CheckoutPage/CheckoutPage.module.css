@@ -18,17 +18,18 @@
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #eee8e8;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(214, 200, 200, 0.9);
+    box-shadow: 0 4px 10px rgb(221, 214, 214);
     position: relative;
     z-index: 2;
   }
   
+  
   /* Order Summary */
   .summary {
-    background: white;
+    background: rgb(255, 252, 252);
     padding: 15px;
     border-radius: 5px;
   }
@@ -41,7 +42,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background: #fff;
+    background: #d4d1d1;
     cursor: pointer;
     transition: 0.3s;
   }
@@ -103,8 +104,8 @@
   .button {
     width: 100%;
     padding: 10px;
-    background-color: black;
-    color: white;
+    background-color: rgb(243, 240, 240);
+    color: rgb(17, 17, 17);
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
@@ -112,7 +113,7 @@
   }
   
   .button:disabled {
-    background: gray;
+    background: rgb(3, 3, 3);
     cursor: not-allowed;
   }
   
