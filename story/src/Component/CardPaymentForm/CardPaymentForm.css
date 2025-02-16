@@ -1,6 +1,6 @@
 .card-payment-container {
   display: flex;
-  background: #fff;
+  background: #9b9393;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -12,7 +12,7 @@
   padding: 20px;
   flex: 1;
   border-right: 1px solid #e0e0e0;
-  background-color: #ffffff;
+  background-color: #a89696;
 }
 
 .order-summary {
