@@ -18,7 +18,7 @@ const CardPaymentForm = () => {
       <div className="card-payment-form">
         <div className="header">
           <img
-            src="https://via.placeholder.com/120x30"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkEvmbjzLu-Jtto61lD3LbthoKM-b9hzfMY5U9fnhyxCWkDNAfXJPO5KI&s"
             alt="AceCoinPay Logo"
             className="logo"
           />
