@@ -1,0 +1,49 @@
+.dashboard {
+    font-family: Arial, sans-serif;
+    padding: 16px;
+    background-color: #f3f3f3;
+    border-radius: 12px;
+  }
+  
+  .header {
+    margin-bottom: 16px;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .user-role {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .recommendation,
+  .popular-experiences,
+  .services,
+  .points-section {
+    margin-bottom: 16px;
+  }
+  
+  .recommendation-card,
+  .experience-card,
+  .service-button {
+    background-color: white;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .service-button {
+    display: block;
+    width: 100%;
+  }
+  
+  .section-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
